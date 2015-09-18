@@ -1,0 +1,14 @@
+---
+
+docker_user: vagrant
+workspace: /vagrant/workspace
+
+mongo:
+  port: 27017
+  webport: 27018
+
+docker_images:
+  - mongo
+  - marcelocorreia/tomcat:7
+  - marcelocorreia/mule:3.6.1
+  - marcelocorreia/rundeck:2.5.3

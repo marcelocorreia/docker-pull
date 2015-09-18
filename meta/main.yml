@@ -1,0 +1,19 @@
+
+galaxy_info:
+  author: Marcelo Correia
+  company: StarVisitor
+  description: "Pulls docker images for Pre baked VM's"
+  min_ansible_version: 1.4
+  license: MIT
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+  - system
+  - development
+
+dependencies: []
