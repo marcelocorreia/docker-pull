@@ -8,7 +8,4 @@ mongo:
   webport: 27018
 
 docker_images:
-  - mongo
-  - marcelocorreia/tomcat:7
-  - marcelocorreia/mule:3.6.1
-  - marcelocorreia/rundeck:2.5.3
+  - busybox
