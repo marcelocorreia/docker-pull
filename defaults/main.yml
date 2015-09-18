@@ -1,11 +1,3 @@
 ---
-
-docker_user: vagrant
-workspace: /vagrant/workspace
-
-mongo:
-  port: 27017
-  webport: 27018
-
 docker_images:
   - busybox
