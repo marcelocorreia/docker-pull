@@ -1,4 +1,4 @@
 ---
 - name: Pulls docker images
   shell: /usr/bin/docker pull {{ item }}
-  with_items: {{ docker_images }}
+  with_items: "{{ docker_images }}"
